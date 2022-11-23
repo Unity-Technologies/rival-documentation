@@ -3,7 +3,7 @@
 
 In this tutorial, we will go through the entire process of creating a new character controller, step-by-step. This will cover a wide variety of features, and will give you an overview of all the different ways this character controller can be customized.
 
-The tutorial can be followed without downloading the final project, but the completed tutorial project can be downloaded here: TODO
+The tutorial can be followed without downloading the final project, but the completed tutorial project can be found [here](https://github.com/Unity-Technologies/rival-samples/tree/master/Tutorial)
 
 Note 1: Throughout this tutorial, the code samples will often have chunks of excluded code in order to show only the important parts that you need to add or modify. The `// (...)` represents excluded code.
 
