@@ -10,7 +10,7 @@ In order to play the game, you need to either host a game, or connect to a game.
 
 To host a game, you need to specify a port on which to listen to connections (the "Host Port"), and then click the "Host Game" button. This will start a server for the game, as well as a local client for you to play as.
 
-NOTE: When hosting a game, if you want others to be able to connect, it is important that you **forward the port** you specified as you "Host Port" in your router settings. The exact procedure varies depending on the router. If you don't know how to do it, search for "port forwarding" + the brand of router you have.
+NOTE: When hosting a game, if you want others to be able to connect, it is important that you **forward the port** you specified as your "Host Port" in your router settings. The exact procedure varies depending on the router. If you don't know how to do it, search for "port forwarding" + the brand of router you have.
 
 
 ## Connecting to a game
