@@ -1,6 +1,9 @@
 
 # Rival - DOTS Character Controller
 
+[Download Rival on the Asset Store](https://assetstore.unity.com/packages/slug/225129)
+
+
 ## Getting Started
 
 Here are the recommended first steps you should take with this package: 
