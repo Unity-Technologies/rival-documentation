@@ -13,8 +13,10 @@ Changing the character physics shape is as simple as changing the "Shape Type" i
 If you wish to change the character collider's dimensions at runtime, you would simply do something like this:
 
 ```cs
-CapsuleCollider* capsuleCollider = (CapsuleCollider*)PhysicsCollider.ColliderPtr; // cast to the type of collider you have now (could be CylinderCollider, BoxCollider, etc...)
-capsuleCollider->Geometry.Radius = 1f; // edit the Geometry of the collider
+CapsuleCollider* capsuleCollider = (CapsuleCollider*)physicsCollider.ColliderPtr;
+CapsuleGeometry capsuleGeometry = capsuleCollider->Geometry;
+capsuleGeometry.Radius = 1f;
+capsuleCollider->Geometry = capsuleGeometry;
 ```
 
 Note that you'll need to make sure that the function in which you do this has the `unsafe` declaration. You must also not forget to write back to the `PhysicsCollider` component in the character update job.
